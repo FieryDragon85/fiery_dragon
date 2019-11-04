@@ -1,0 +1,48 @@
+p {text-align:center; font-weight:100;}
+a {text-decoration:none} 
+a:hover{text-decoration:underline}
+.Button {
+	width:200px;
+	background-color: #F0F0F0;
+	font-size: 100%;
+	font-family: "Lucia Console", Arial, sans-serif;
+	padding: 5px;
+	margin: 0px;
+	color: #403030;
+	/* border-left-color: gray;
+	border-top-color: gray;*/
+	border-bottom-color: gray;
+	border-right-color: gray;
+	border-style: double;
+	/*font-weight: bold;*/
+	cursor: pointer;
+}
+input.Button:hover{text-decoration:underline}
+
+.textShadow{
+	text-shadow: 1px 1px 15px #777;
+}
+table {
+	text-align: center;
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+td {
+    padding: 1px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+input
+{
+	text-align:center;
+	border: 0px solid black;
+	font: 12pt TimeNewRoman;
+}
+div
+{
+	vertical-align: top;
+	text-align:left;
+}
+span
+{
+	color:red;
+}
